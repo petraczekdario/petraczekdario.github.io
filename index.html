@@ -1,9 +1,112 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dario Petraczek Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
 <body>
-  <h1>Petraczek Dario</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <header>
+        <!-- L O G O -->
+        <span id="logo">
+            <h1>Petraczek Dario</h1>
+            <h3>portfolio website</h3>
+        </span>
+        <!-- N A V I G A T I O N    M E N U -->
+        <nav>
+            <ul>
+                <li><a href="#bio">bio</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="pag/contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- B I O -->
+        <section id="bio">
+            <h2>Bio</h2>          
+            <h3>Hi! My name is DARIO!</h3>
+            <img src="media/images/bio.jpg" alt="Petraczek Dario's photo">
+            <p>
+                My journey has taken me from the world of IT to the world of healthcare, and now I'm excited to combine these experiences 
+                in a new career in web development. Born in Italy (1983) and now based in Somerset, I've had a lifelong passion for technology, 
+                starting with a Commodore 128 at age 4. After graduating from a computer science high school/college, I spent nine years (2001-2010) 
+                working in IT in Rome, supporting a wide range of clients.  In my 30s, I pursued a career in nursing, moving to England in 2016. 
+                This experience instilled in me strong communication, problem-solving, and empathy - skills that are invaluable in creating user-centered 
+                web applications. Currently, I'm dedicated to expanding my technical skills through an online web development course, building a portfolio 
+                of projects that showcase my abilities (see below). I'm seeking a challenging and rewarding role where I can apply my diverse background 
+                and contribute to innovative projects. In my free time, I enjoy music (I play bass guitar in a band), staying active at the gym and in 
+                the surf, exploring nature, and traveling.
+            </p>
+            
+        </section>
 
+        <!-- P R O J E C T S -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projectsContainer">
+                <!-- P R O J E C T # 1 -->
+                <div>
+                    <h3>Calculator</h3>
+                    <img src="media/images/projects/calculator.jpg" alt="Calculator project">
+                    <p>
+                        During my web development course, the calculator project was one of my first significant challenges. 
+                        <div id="hidden-first">
+                            <p>This project involved using HTML, CSS, 
+                            and JavaScript to create a web application that not only visually resembled a traditional calculator but also functioned like one. We focused 
+                            on replicating the core functionality, including basic arithmetic operations (addition, subtraction, multiplication, and division), clear/reset 
+                            functionality, and potentially more advanced features like handling decimals and order of operations. Building this project helped solidify my 
+                            understanding of front-end development principles and how these three languages work together to create interactive web experiences.
+                            </p>
+                        </div>
+                        <a href="#projects" id="read-more">Read More >></a>
+                    </p>
+                    <em>core skills: HTML, CSS and &comma; Javascript</em>
+                </div>
+
+                <!-- P R O J E C T # 2 -->
+                <div>
+                    <h3>Mixed message generator</h3>
+                    <img src="media/images/projects/mixedmessages.jpg" alt="Mixed message generator project">
+                    <p>
+                        This project, a mixed message generator, was an early challenge in my web development learning journey. 
+                        <div id="hidden-first">
+                            <p>The goal was to create a JavaScript program 
+                            that would output a different, randomly generated message each time it was executed. This involved using core JavaScript syntax and programming 
+                            concepts to construct the messages and select random elements from them. Beyond the JavaScript itself, the project also required using Git for 
+                            version control, interacting with the command line, and developing the program locally on my computer. This experience provided valuable practice 
+                            in essential developer workflows and reinforced my understanding of fundamental JavaScript principles.
+                            </p>
+                            </div>
+                            <a href="#projects" id="read-more">Read More >></a>
+                    </p>
+                    
+                    <em>core skills: Javascript, Git and GitHub, command line</em>
+                </div>
+            </div>    
+        </section>
+        
+        <!-- S K I L L S -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skillsContainer">
+                <div><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><img src="media/images/skills/icons8-html-5-100.png" alt="HTML" onmouseover="this.src='media/images/skills/icons8-html-5-100color.png'" onmouseout="this.src='media/images/skills/icons8-html-5-100.png'"></a></div>
+                <div><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><img src="media/images/skills/icons8-css3-100.png" alt="CSS" onmouseover="this.src='media/images/skills/icons8-css3-100color.png'" onmouseout="this.src='media/images/skills/icons8-css3-100.png'"></a></div>
+                <div><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="media/images/skills/icons8-javascript-logo-100.png" alt="JavaScript" onmouseover="this.src='media/images/skills/icons8-javascript-logo-100color.png'" onmouseout="this.src='media/images/skills/icons8-javascript-logo-100.png'"></a></div>
+                <div><a href="https://www.python.org/" target="_blank"><img src="media/images/skills/icons8-python-100.png" alt="Python" onmouseover="this.src='media/images/skills/icons8-python-100color.png'" onmouseout="this.src='media/images/skills/icons8-python-100.png'"></a></div>
+                <div><a href="https://github.com/petraczekdario/git_practice" target="_blank"><img src="media/images/skills/icons8-github-100.png" alt="GitHub" onmouseover="this.src='media/images/skills/icons8-github-100color.png'" onmouseout="this.src='media/images/skills/icons8-github-100.png'"></a></div>                
+            </div>
+            <em>All icons by <a target="_blank" href="https://icons8.com">Icons8</a></em>
+        </section>
+
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
 </html>
